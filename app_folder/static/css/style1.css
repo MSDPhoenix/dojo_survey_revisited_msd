@@ -1,0 +1,67 @@
+* {
+    margin:0px;
+    padding:0px;
+    border:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color:darkslategray;
+}
+h4,  .primary {
+    display: inline-block;
+    box-shadow: 3px 3px 3px black;
+    border:black 1px solid;
+    padding:5px;
+    width:153px;
+}
+h4 {
+    margin-bottom: 20px;
+}
+select {
+    width:153px;
+}
+form {
+    width:380px;
+    height: 300px;
+    height: fit-content;
+    background-color: lightslategray;
+    margin: 10px auto;
+    padding:20px;
+    border:darkgoldenrod 5px outset;
+}
+div {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+textarea {
+    display:block;
+    width:100%;
+    margin:10px 0px;
+    height:80px;
+}
+button {
+    padding: 5px 10px;
+    border:black 1px solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+}
+#button_div {
+    justify-content: flex-end;
+    padding-bottom: 0px;
+}
+#radiobutton {
+    padding:0;
+    display:block;
+}
+#radiobutton input {
+    margin-left:20px;
+}
+#checkbox {
+    padding:0px 0px 10px 0px;
+    display:block;
+}
+#checkbox input, #checkbox label, #checkbox span {
+    margin: 0px 0px 10px 20px;
+    display:inline-block;
+}
